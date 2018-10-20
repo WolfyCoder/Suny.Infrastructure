@@ -4,7 +4,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Wolfy.Infrastructure.Uitls
+namespace Suny.Infrastructure.Uitls
 {
     /// <summary>
     /// md5 工具类

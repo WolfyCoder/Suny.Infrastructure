@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Wolfy.Infrastructure\Wolfy.Infrastructure.csproj" />
+    <ProjectReference Include="..\Suny.Infrastructure\Suny.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
