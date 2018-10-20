@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Suny.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:System.SystemExtention">
+            <summary>
+            日期类型扩展
+            </summary>
+        </member>
+        <member name="M:System.SystemExtention.ToUnixTimeMilliseconds(System.DateTime)">
+            <summary>
+            将时间类型转换为时间戳
+            </summary>
+            <param name="self"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.SystemExtention.ToLocalDateTimeTime(System.Int64)">
+            <summary>
+            将时间戳转换为时间
+            </summary>
+            <param name="self"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Suny.Infrastructure.Uitls.MD5Util">
+            <summary>
+            md5 工具类
+            </summary>
+        </member>
+        <member name="M:Suny.Infrastructure.Uitls.MD5Util.Md5FromString(System.String)">
+            <summary>
+            获取字符串md5值
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Suny.Infrastructure.Uitls.MD5Util.Md5FromFile(System.String)">
+            <summary>
+            获取文件md5值
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Suny.Infrastructure.Uitls.MD5Util.Md5FromStream(System.IO.Stream)">
+            <summary>
+            获取流md5值
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

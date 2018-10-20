@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</PackageLicenseUrl>
+    <RepositoryType></RepositoryType>
+    <Authors>Wolfy</Authors>
+    <Company>Wolfy</Company>
+    <Description>MD5,DateTime Extentsion</Description>
+    <Copyright>Copyright © Wolfy 2018</Copyright>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>

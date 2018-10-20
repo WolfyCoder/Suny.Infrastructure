@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /src/Edudot.NoticePushService/appsettings.Development.json
+/Suny.Infrastructure/*.nupkg
