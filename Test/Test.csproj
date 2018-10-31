@@ -10,4 +10,8 @@
 
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CNSuny.Infrastructure\CNSuny.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
