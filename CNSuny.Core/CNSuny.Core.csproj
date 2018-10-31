@@ -8,7 +8,7 @@
     <PackageIconUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageIconUrl>
     <RepositoryUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</RepositoryUrl>
     <Description>基于Core2.1 mongo服务扩展</Description>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

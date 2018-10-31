@@ -8,7 +8,9 @@
     <RepositoryType></RepositoryType>
     <Authors>Wolfy</Authors>
     <Company>Wolfy</Company>
-    <Description>MD5,DateTime Extentsion</Description>
+    <Description>MD5,DateTime Extentsion,PageDTO</Description>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
