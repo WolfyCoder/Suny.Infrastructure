@@ -14,14 +14,14 @@ appSettings.json
     services.AddCNSunyMongoContext<BlogContext>();
  创建数据库上下文类
   
-    public class BlogContext : MongoContext
+     public class BlogContext : MongoContext
     {
         public BlogContext(IOptions<MongoOptions> mongoOption) : base(mongoOption.Value)
         {
         }
 
-        public IMongoCollection<Models.Blog> Blogs => DB.GetCollection<Models.Blog>("Blogs");
-        public IMongoCollection<Models.User> Users => DB.GetCollection<Models.User>("Users");
-        public IMongoCollection<Models.Comment> Comments => DB.GetCollection<Models.Comment>("Comments");
+        public IMongoCollection<Models.Blog> Blogs => DataBase.GetCollection<Models.Blog>("Blogs");
+        public IMongoCollection<Models.User> Users => DataBase.GetCollection<Models.User>("Users");
+        public IMongoCollection<Models.Comment> Comments => DataBase.GetCollection<Models.Comment>("Comments");
 
     }
