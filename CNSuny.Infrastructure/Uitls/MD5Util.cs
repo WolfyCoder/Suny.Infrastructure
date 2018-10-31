@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Suny.Infrastructure.Uitls
+namespace CNSuny.Infrastructure.Uitls
 {
     /// <summary>
     /// md5 工具类
