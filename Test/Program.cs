@@ -1,4 +1,4 @@
-﻿using Suny.Infrastructure.Uitls;
+﻿using CNSuny.Infrastructure.Uitls;
 using System;
 
 namespace Test

@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CNSuny.Infrastructure" Version="1.0.1" />
+        <PackageReference Include="CNSuny.Infrastructure" Version="1.0.1" />
+
   </ItemGroup>
 
 </Project>
