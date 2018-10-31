@@ -2,13 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Version>1.0.1</Version>
-    <PackageLicenseUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageLicenseUrl>
+    <Copyright>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</Copyright>
     <PackageProjectUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageIconUrl>
     <RepositoryUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</RepositoryUrl>
-    <Description>基于Core2.1 mongo服务扩展</Description>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryType>GitHub</RepositoryType>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
