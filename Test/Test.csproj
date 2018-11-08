@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-        <PackageReference Include="CNSuny.Infrastructure" Version="1.0.1" />
-
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\CNSuny.Core.Mongo\CNSuny.Core.Mongo.csproj" />
     <ProjectReference Include="..\CNSuny.Infrastructure\CNSuny.Infrastructure.csproj" />
   </ItemGroup>
 

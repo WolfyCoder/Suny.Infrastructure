@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace CNSuny.Infrastructure
+namespace CNSuny.Infrastructure.Mvc
 {
     /// <summary>
     /// 分页包装实体类

@@ -14,6 +14,6 @@ namespace WebCore.Test
         public TestContext(IOptions<MongoOptions> options) : base(options.Value)
         {
         }
-        public IMongoCollection<BsonDocument> Blogs => DB.GetCollection<BsonDocument>("Blogs");
+        public IMongoCollection<BsonDocument> Blogs => DataBase.GetCollection<BsonDocument>("Blogs");
     }
 }
