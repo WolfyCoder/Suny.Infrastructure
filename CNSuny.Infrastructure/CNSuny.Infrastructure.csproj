@@ -8,8 +8,8 @@
     <RepositoryType></RepositoryType>
     <Authors>Wolfy</Authors>
     <Company>Wolfy</Company>
-    <Description>MD5,DateTime Extentsion,PageDTO</Description>
-    <Version>1.0.2</Version>
+    <Description>MD5,DateTime Extentsion，UnixTimeMillisecondsConverter</Description>
+    <Version>1.0.3</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 

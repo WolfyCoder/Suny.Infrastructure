@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CNSuny.Infrastructure.Mvc;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using WebCore.Test.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace WebCore.Test.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ValuesController : BaseApiController
     {
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            //throw new Exception("测试异常");
             return new string[] { "value1", "value2" };
         }
 
@@ -27,8 +31,9 @@ namespace WebCore.Test.Controllers
 
         // POST api/<controller>
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]User value)
         {
+            Console.WriteLine(JsonConvert.SerializeObject(value));
         }
 
         // PUT api/<controller>/5

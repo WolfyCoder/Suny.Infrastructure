@@ -8,7 +8,7 @@
         /// <summary>
         /// 业务处理状态码
         /// </summary>
-        public int Code { set; get; }
+        public int? Code { set; get; }
         /// <summary>
         /// 业务处理状态描述
         /// </summary>

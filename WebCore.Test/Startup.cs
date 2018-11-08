@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CNSuny.Core.Mongo;
+using CNSuny.Infrastructure.Json;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -32,7 +33,11 @@ namespace WebCore.Test
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions((options) =>
+            {
+
+                options.SerializerSettings.Converters.Add(new UnixTimeMillisecondsConverter());
+            });
             //注册Mongo
             services.Configure<MongoOptions>(Configuration.GetSection("MongoOptions"));
             services.AddCNSunyMongoContext<TestContext>();
@@ -57,7 +62,7 @@ namespace WebCore.Test
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=values}/{action=get}/{id?}");
             });
         }
     }
