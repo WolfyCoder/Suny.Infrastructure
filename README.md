@@ -4,7 +4,8 @@
 ## 内置对DateTime扩展，可快速实现时间转时间戳，时间戳转时间功能
 ## Mongo用法
 #### 配置mongo连接字符串
-appSettings.json
+##### appSettings.json
+
  "MongoOptions": {
     "ConnectionString": "mongodb://root:root@localhost:27017/BlogDB",
     "DataBase": "BlogDB"
