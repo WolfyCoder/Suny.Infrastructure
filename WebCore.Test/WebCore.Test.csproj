@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CNSuny.Authorization\CNSuny.Authorization.csproj" />
     <ProjectReference Include="..\CNSuny.Core.Mongo\CNSuny.Core.Mongo.csproj" />
     <ProjectReference Include="..\CNSuny.Infrastructure.Mvc\CNSuny.Infrastructure.Mvc.csproj" />
     <ProjectReference Include="..\CNSuny.Infrastructure\CNSuny.Infrastructure.csproj" />

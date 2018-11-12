@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CNSuny.Authorization.WeiXin;
 using CNSuny.Infrastructure.Mvc;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using WebCore.Test.Models;
 
@@ -14,6 +16,12 @@ namespace WebCore.Test.Controllers
     [Route("api/[controller]")]
     public class ValuesController : BaseApiController
     {
+        private WeiXinOptions _weiXinOptions;
+        public ValuesController(IOptions<WeiXinOptions> options)
+
+        {
+            _weiXinOptions = options.Value;
+        }
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<string> Get()

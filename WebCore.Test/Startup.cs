@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CNSuny.Authorization.WeiXin;
 using CNSuny.Core.Mongo;
 using CNSuny.Infrastructure.Json;
 using Microsoft.AspNetCore.Builder;
@@ -32,7 +33,12 @@ namespace WebCore.Test
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddWeiXinAuthorization((options) =>
+            {
+                var weiXinOptions = Configuration.GetValue<WeiXinOptions>("WeiXinOptions");
+                options.AppId = weiXinOptions.AppId;
+                options.Secret = weiXinOptions.Secret;
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions((options) =>
             {
 
