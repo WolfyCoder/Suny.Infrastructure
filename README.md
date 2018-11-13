@@ -41,7 +41,7 @@
         public IMongoCollection<Models.Comment> Comments => DataBase.GetCollection<Models.Comment>("Comments");
 
     }
-#### CNSuny.Infrastructure.Mvc
+## CNSuny.Infrastructure.Mvc
    ### BaseApiController 重写了action执行前和执行后的操作，对相应体使用ReponseEntity结构包裹。
    ### CNSunyException 框架自定义异常类型
    ### PageDTO 分页实体
