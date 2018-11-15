@@ -34,7 +34,7 @@ namespace System
         /// <returns></returns>
         public static string ToJson(this object input, JsonSerializerSettings jsonSerializerSettings = null)
         {
-            CheckUtil.ThrowIfNull(input, nameof(input));
+            NullUtil.ThrowIfNull(input, nameof(input));
             return JsonConvert.SerializeObject(input, jsonSerializerSettings);
         }
         /// <summary>
@@ -46,7 +46,7 @@ namespace System
         /// <returns></returns>
         public static T ToEntity<T>(this string input, JsonSerializerSettings jsonSerializerSettings = null) where T : class, new()
         {
-            CheckUtil.ThrowIfNullOrWhiteSpace(input, nameof(input));
+            NullUtil.ThrowIfNullOrWhiteSpace(input, nameof(input));
             return JsonConvert.DeserializeObject<T>(input, jsonSerializerSettings);
         }
     }

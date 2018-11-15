@@ -7,7 +7,7 @@ namespace CNSuny.Infrastructure.Uitls
     /// <summary>
     /// 对象空值校验
     /// </summary>
-    public class CheckUtil
+    public class NullUtil
     {
         /// <summary>
         /// 对象null值检查，如果为null抛出异常ArgumentNullException
