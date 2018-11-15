@@ -1,5 +1,5 @@
 ##  Suny.Infrastructure
-## 基于.NET Statndard2.0 工具类项目
+## 基于.NET Standard2.0 工具类项目
     ### 结构
 	Suny.Infrastructure
 	 ### > Extentions
