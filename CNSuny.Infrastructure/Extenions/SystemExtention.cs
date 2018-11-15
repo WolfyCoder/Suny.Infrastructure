@@ -1,4 +1,7 @@
-﻿namespace System
+﻿using CNSuny.Infrastructure.Uitls;
+using Newtonsoft.Json;
+
+namespace System
 {
     /// <summary>
     /// 日期类型扩展
@@ -22,6 +25,29 @@
         public static DateTime ToLocalDateTimeTime(this long self)
         {
             return DateTimeOffset.FromUnixTimeMilliseconds(self).DateTime;
+        }
+        /// <summary>
+        /// 将对象转换为json
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="jsonSerializerSettings">序列化配置</param>
+        /// <returns></returns>
+        public static string ToJson(this object input, JsonSerializerSettings jsonSerializerSettings = null)
+        {
+            NullUtil.ThrowIfNull(input, nameof(input));
+            return JsonConvert.SerializeObject(input, jsonSerializerSettings);
+        }
+        /// <summary>
+        /// 将字符串转换为对象
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="input"></param>
+        /// <param name="jsonSerializerSettings"></param>
+        /// <returns></returns>
+        public static T ToEntity<T>(this string input, JsonSerializerSettings jsonSerializerSettings = null) where T : class, new()
+        {
+            NullUtil.ThrowIfNullOrWhiteSpace(input, nameof(input));
+            return JsonConvert.DeserializeObject<T>(input, jsonSerializerSettings);
         }
     }
 }
