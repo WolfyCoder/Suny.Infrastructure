@@ -8,6 +8,8 @@
 	     ### UnixTimeMillisecondsConverter dateTime类型json序列化转换器，转换为时间戳格式
 	 ### > Utils
 	     ### MD5Utils md5辅助工具
+	     ### AesUtil AES辅助工具
+	     ### NullUtil null检查辅助工具
 	
  
 ## CNSuny.Core.Mongo
