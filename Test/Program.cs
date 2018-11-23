@@ -21,6 +21,10 @@ namespace Test
             var test = json.ToEntity<Test>();
             Console.WriteLine(test.Name);
             Console.WriteLine(json);
+
+            string encryptStr = AesUtil.Encrypt("wolfy", "1234");
+            Console.WriteLine(encryptStr);
+            Console.WriteLine(AesUtil.Decrypt(encryptStr, "1234"));
             Console.Read();
         }
         class Test

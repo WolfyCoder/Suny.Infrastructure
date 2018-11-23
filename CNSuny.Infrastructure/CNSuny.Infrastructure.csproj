@@ -2,15 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageProjectUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/WolfyCoder/Suny.Infrastructure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/WolfyCoder/Suny.Infrastructure</PackageLicenseUrl>
     <RepositoryType></RepositoryType>
     <Authors>Wolfy</Authors>
     <Company>Wolfy</Company>
     <Description>MD5,DateTime Extentsion，UnixTimeMillisecondsConverter</Description>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>https://github.com/WolfyCoder/Suny.Infrastructure</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

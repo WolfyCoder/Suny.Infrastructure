@@ -2,8 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Copyright>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</Copyright>
-    <PackageProjectUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageProjectUrl>
+    <Copyright>https://github.com/WolfyCoder/Suny.Infrastructure</Copyright>
+    <PackageProjectUrl>https://github.com/WolfyCoder/Suny.Infrastructure</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/WolfyCoder/Suny.Infrastructure</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

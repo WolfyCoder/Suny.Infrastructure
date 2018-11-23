@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Copyright>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</Copyright>
-    <PackageProjectUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/WolfyCoder/Wolfy.Infrastructure.git</RepositoryUrl>
+    <Copyright>https://github.com/WolfyCoder/Suny.Infrastructure</Copyright>
+    <PackageProjectUrl>https://github.com/WolfyCoder/Suny.Infrastructure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WolfyCoder/Suny.Infrastructure.git</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Version>1.0.3</Version>
   </PropertyGroup>
